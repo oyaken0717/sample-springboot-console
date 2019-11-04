@@ -1,4 +1,4 @@
-package com.yuukiyg.springbootconsole.samplespringbootconsole.component;
+package com.yuukiyg.springbootconsole.samplespringbootconsole.service;
 
 import org.springframework.stereotype.Component;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  *
  */
 @Component
-public class HelloComponentImpl implements HelloComponent{
+public class HelloServiceImpl implements HelloService{
 
 	@Override
 	public void sayHello() {
